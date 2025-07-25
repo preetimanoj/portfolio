@@ -69,7 +69,7 @@ export default function IndexPage() {
 
       {/* Resume download link */}
       <a
-        href={process.env.NEXT_PUBLIC_RESUME_LINK}
+        href="/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block mt-6 px-4 py-2 bg-blue-600 text-white rounded"
