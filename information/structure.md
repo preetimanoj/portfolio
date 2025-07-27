@@ -159,7 +159,7 @@ This is the folder structure of the whole application
 │ │ ├── app_7.webp
 │ │ └── logo.png
 │ ├── logo.png
-│ ├── naman-img.jpg
+│ ├── preeti-img.png
 │ ├── next.svg
 │ └── vercel.svg
 ├── tailwind.config.js

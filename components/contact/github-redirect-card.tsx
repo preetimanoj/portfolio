@@ -1,11 +1,12 @@
 "use client";
-
+import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { ExternalLink, Github, Heart } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import preetiImg from "@/public/preeti-img.png";
 
 export default function GithubRedirectCard() {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,7 +17,16 @@ export default function GithubRedirectCard() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <CardContent className="p-8 flex flex-col items-center text-center">
+        <Image
+            src={preetiImg}
+            height={100}
+            width={100}
+            sizes="100vw"
+            className="bg-primary  mb-0 h-auto md:mb-2 w-[100%]  border-8 border-primary"
+            alt="Preeti Manoj - Full Stack Developer Portfolio"
+            priority
+          />
+      {/* <CardContent className="p-8 flex flex-col items-center text-center">
         <div className="mb-6">
           <Heart
             className={`w-12 h-12 transition-colors duration-300 ease-out ${
@@ -34,7 +44,7 @@ export default function GithubRedirectCard() {
       </CardContent>
       <CardFooter className="px-8 pb-8 pt-0">
         <Link
-          href={"https://github.com/namanbarkiya/minimal-next-portfolio"}
+          href={"https://github.com/preetimanoj/minimal-next-portfolio"}
           target="_blank"
           className={cn(
             buttonVariants({ variant: "outline" }),
@@ -49,7 +59,7 @@ export default function GithubRedirectCard() {
         className={`h-1 bg-gradient-to-r from-red-500 to-red-500 transition-all duration-300 ease-out ${
           isHovered ? "opacity-100" : "opacity-0"
         }`}
-      ></div>
+      ></div> */}
     </Card>
   );
 }
