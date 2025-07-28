@@ -3,13 +3,13 @@ export const siteConfig = {
   authorName: "Preeti Manoj",
   username: "preetimanoj",
   description:
-    "Preeti Manoj's portfolio - A modern, responsive Next.js portfolio for developers. This open-source template can be customized to showcase your own skills, projects, and professional experience.",
-  url: "https://nbarkiya.xyz",
+    "Preeti Manoj's portfolio",
+  url: "https://preetimanoj.vercel.app",
   links: {
     twitter: "https://x.com/preetimanoj",
     github: "https://github.com/preetimanoj",
   },
-  ogImage: "https://nbarkiya.xyz/preeti-img.jpg",
+  ogImage: "https://preetimanoj.vercel.app/preeti-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:

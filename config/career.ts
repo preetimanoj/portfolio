@@ -14,68 +14,65 @@ export interface CareerExperienceInterface {
   logo?: string;
 }
 
+
+
 export const careerExperiences: CareerExperienceInterface[] = [
   {
-    id: "ubs",
-    position: "Software Development Engineer",
-    company: "UBS",
-    location: "Mumbai, India",
-    startDate: new Date("2024-08-01"),
-    endDate: "Present",
+    id: "ice",
+    position: "Web Developer (Co-op)",
+    company: "Institute of Canadian Education",
+    location: "Toronto, Ontario, Canada",
+    startDate: new Date("2022-09-01"),
+    endDate: new Date("2023-01-02"),
     description: [
-      "Contributing to the P&L dashboard used by traders and senior stakeholders.",
-      "Leading the migration of the UI from Kendo to UBS's internal design system.",
-      "Building a daily FX rate fetcher by integrating Databricks jobs with backend services.",
+      "Accountable for maintaining and optimizing 2 institutional websites using HTML5, CSS3, JavaScript, andjQuery, contributing to a high-performance culture and user-centric design",
+      "Led performance optimization techniques reducing page load times by 25%, supporting a low carbon digitalstrategy and enhancing energy efficiency.",
+      "Managed and administered the Moodle LMS platform, including updates, plugin management, issue troubleshooting, and serving 100+ active users in a software development environment.",
+      "Gathered requirements, drafted and maintained clear written documentation for updates and workflows, andprioritized bug fixes demonstrating time management and responsible communication"
     ],
     achievements: [
-      "Delivered production code within 1 month of joining by contributing to the P&L dashboard used by traders and senior stakeholders.",
-      "Led the migration of the UI from Kendo to UBS's internal design system, improving frontend consistency and performance.",
-      "Built a daily FX rate fetcher by integrating Databricks jobs (Python, Spark SQL) with backend services (Java), automating exchange rate updates.",
-      "Won UBS's internal AI Venture Challenge by developing data transformation pipelines and anomaly detection models on trading datasets.",
-      "Collaborated closely with product owners and designers for user-centric features, improving usability and trader workflows.",
+      "Supported the IT Services team in delivering digital solutions aligned with accessibility, employment equity, andperformance culture principles.",
+      "Ensured AODA and WCAG 2.1 accessibility compliance, improving usability and promoting human rights and Indigenous inclusion in digital education.",
+      "Supervised and mentored 2 remote junior developers; delegated tasks, conducted code reviews, and supported growth through knowledge sharing and interview preparation."
     ],
     skills: ["Typescript", "React", "Databricks", "Java", "Python"],
-    companyUrl: "https://www.ubs.com",
-    logo: "/logo.png",
+    companyUrl: "https://www.iceducation.ca/,",
+    logo: "/career/ice-logo.png",
   },
   {
-    id: "agentprod",
-    position: "Software Development Intern",
-    company: "Agentprod LLP",
-    location: "Bengaluru, India",
-    startDate: new Date("2023-10-01"),
-    endDate: new Date("2024-03-01"),
+    id: "dexlock",
+    position: "Full Stack Developer",
+    company: "Dexlock",
+    location: "Kerala, India",
+    startDate: new Date("2020-01-01"),
+    endDate: new Date("2021-04-01"),
     description: [
-      "Built backend for AI-driven chatbots using LLMs (GPT-4, Llama-2).",
-      "Developed APIs and integrated Slack, Google Workspace, and HubSpot automations.",
-      "Deployed ML models on AWS SageMaker instead of Replicate.",
+      "Designed and implemented RESTful APIs with software engineering principles, reducing latency by 30% via performance optimization and caching strategies.",
+      "Contributed to architectural design discussions using software design patterns and supported containerization with Docker and Azure DevOps.",
+      "Integrated AI-powered modules for emerging technologies while ensuring security, compliance, and IT services governance in cloud deployments on Microsoft Azure.",
     ],
     achievements: [
-      "Built backend for AI-driven chatbots using LLMs (GPT-4, Llama-2), improving function call accuracy by 40%.",
-      "Developed APIs and integrated Slack, Google Workspace, and HubSpot automations via FastAPI.",
-      "Deployed ML models on AWS SageMaker instead of Replicate, cutting load times by 30%.",
-      "Created a Next.js dashboard for user analytics.",
+      "Delivered innovative, scalable full-stack solutions using ASP.NET Core, C#, React, and SQL within Agile software development environments tied to pay-for-performance SLAs.",
+      "Authored written technical documentation, participated in Agile ceremonies, system audits, and interviews, contributing vision and knowledge sharing for future-proof software solutions.",
     ],
     skills: ["Next.js", "React", "Node.js", "AWS", "MongoDB", "Typescript"],
-    companyUrl: "https://agentprod.com",
-    logo: "/career/agentprod-logo.png",
+    companyUrl: "https://dexlock.com/",
+    logo: "/career/dexlock-logo.jpeg",
   },
   {
-    id: "builtdesign",
-    position: "Web Developer Intern",
-    company: "Builtdesign",
-    location: "Nagpur, India",
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
+    id: "terrific Minds",
+    position: "Junior Full-Stack Developer",
+    company: "Terrific Minds",
+    location: "Kerala, India",
+    startDate: new Date("2019-06-01"),
+    endDate: new Date("2020-01-01"),
     description: [
-      "Developed websites using React, Angular, and GraphQL.",
-      "Set up AWS servers and CI/CD pipelines.",
-      "Built a multi-page PDF reader for large files (>300MB).",
+      "Developed and deployed full-stack features using React, JavaScript, .NET Core, and Node.js, ensuring roduct stability, scalability, and adherence to security principles.",
+      "Created and maintained CI/CD pipelines, integrated Git workflows, optimized backend queries, andsupported containerization for a low carbon, efficient codebase.",
+      "Participated in interviews, stakeholder meetings, and documentation efforts, collaborating with QA and design teams to deliver sprint-ready releases ahead of schedule with leadership and accountability"
     ],
     achievements: [
-      "Developed websites using React, Angular, and GraphQL; reduced API load time by 30%.",
-      "Set up AWS servers and CI/CD pipelines, scaling traffic to 3,000+ users/day.",
-      "Built a multi-page PDF reader for large files (>300MB) to boost user engagement.",
+      "Developed and deployed full-stack features in cross-functional teams, supporting product stability and growth."
     ],
     skills: [
       "React",
@@ -86,7 +83,56 @@ export const careerExperiences: CareerExperienceInterface[] = [
       "CSS 3",
       "Javascript",
     ],
-    companyUrl: "https://builtdesign.in",
-    logo: "/career/builtdesign-logo.png",
+    companyUrl: "https://www.terrificminds.com/",
+    logo: "/career/tm-logo.svg",
+  },
+  {
+    id: "mitsogo",
+    position: "Junior Full-Stack Developer",
+    company: "Mitsogo",
+    location: "Kerala, India",
+    startDate: new Date("2018-06-01"),
+    endDate: new Date("2019-04-01"),
+    description: [
+      "Contributed to enterprise-grade internal tools in a secure, Agile software development environment using ASP.NET MVC, C#, SQL Server, JavaScript, and jQuery.",
+      "Participated in unit testing, bug tracking, and peer code reviews to uphold software design integrity, optimization, and industry quality standards.",
+      "Migrated legacy modules to modern frameworks and authored written walkthroughs to support maintainability, onboarding, and knowledge sharing.",
+    ],
+    achievements: [
+      "Contributed to enterprise-grade internal tools in a secure, Agile software development environment.",
+    ],
+    skills: [
+      "React",
+      "Angular",
+      "GraphQL",
+      "AWS",
+      "HTML 5",
+      "CSS 3",
+      "Javascript",
+    ],
+    companyUrl: "https://www.mitsogo.com/",
+    logo: "/career/hexnode-logo.png",
+  },
+  {
+    id: "fhg",
+    position: "Concierge",
+    company: "Forest Hill Group",
+    location: "Toronto, Ontario, Canada",
+    startDate: new Date("2023-01-01"),
+    endDate: new Date("2025-04-01"),
+    description: [
+      
+      "Delivered personalized customer service in a high-volume residential setting, exhibiting communication, commitment, leadership, and support.",
+      "Maintained written records and coordinated bookings and deliveries using scheduling tools and interview-style intake, ensuring responsible operations.",
+      "Introduced a digital package tracking system, reducing logging errors by 20% and aligning with the company’s performance culture, vision, and integrity.",
+    ],
+    achievements: [
+      "Represented the company’s values through integrity, support, and service in a high-volume residential environment."
+    ],
+    skills: [
+      "Javascript",
+    ],
+    companyUrl: "https://thefhgroup.com/",
+    logo: "/career/logo-fhg.svg",
   },
 ];

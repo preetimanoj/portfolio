@@ -1,6 +1,6 @@
 # Portfolio Website Navigation Overview
 
-This document outlines the navigation structure of the portfolio website [https://nbarkiya.xyz/](https://nbarkiya.xyz/), detailing each page and its primary sections to facilitate understanding and interaction.
+This document outlines the navigation structure of the portfolio website [https://preetimanoj.vercel.app/](https://preetimanoj.vercel.app/), detailing each page and its primary sections to facilitate understanding and interaction.
 
 ---
 
@@ -8,11 +8,11 @@ This document outlines the navigation structure of the portfolio website [https:
 
 The website's main navigation menu is accessible from all pages and includes the following links:
 
-1. **Home**: [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
-2. **Skills**: [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
-3. **Experience**: [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
-4. **Contributions**: [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
-5. **Contact**: [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+1. **Home**: [https://preetimanoj.vercel.app/](https://preetimanoj.vercel.app/)
+2. **Skills**: [https://preetimanoj.vercel.app/skills](https://preetimanoj.vercel.app/skills)
+3. **Experience**: [https://preetimanoj.vercel.app/experience](https://preetimanoj.vercel.app/experience)
+4. **Contributions**: [https://preetimanoj.vercel.app/contributions](https://preetimanoj.vercel.app/contributions)
+5. **Contact**: [https://preetimanoj.vercel.app/contact](https://preetimanoj.vercel.app/contact)
 
 ---
 
@@ -20,7 +20,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 1. Home
 
-**URL:** [https://nbarkiya.xyz/](https://nbarkiya.xyz/)
+**URL:** [https://preetimanoj.vercel.app/](https://preetimanoj.vercel.app/)
 
 **Sections:**
 
@@ -31,7 +31,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 2. Skills
 
-**URL:** [https://nbarkiya.xyz/skills](https://nbarkiya.xyz/skills)
+**URL:** [https://preetimanoj.vercel.app/skills](https://preetimanoj.vercel.app/skills)
 
 **Sections:**
 
@@ -39,7 +39,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 3. Experience
 
-**URL:** [https://nbarkiya.xyz/experience](https://nbarkiya.xyz/experience)
+**URL:** [https://preetimanoj.vercel.app/experience](https://preetimanoj.vercel.app/experience)
 
 **Sections:**
 
@@ -47,7 +47,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 4. Contributions
 
-**URL:** [https://nbarkiya.xyz/contributions](https://nbarkiya.xyz/contributions)
+**URL:** [https://preetimanoj.vercel.app/contributions](https://preetimanoj.vercel.app/contributions)
 
 **Sections:**
 
@@ -55,7 +55,7 @@ The website's main navigation menu is accessible from all pages and includes the
 
 ### 5. Contact
 
-**URL:** [https://nbarkiya.xyz/contact](https://nbarkiya.xyz/contact)
+**URL:** [https://preetimanoj.vercel.app/contact](https://preetimanoj.vercel.app/contact)
 
 **Sections:**
 

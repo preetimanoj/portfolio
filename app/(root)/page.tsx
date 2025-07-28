@@ -185,7 +185,7 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection>
-      <AnimatedSection
+      {/* <AnimatedSection
         direction="right"
         className="container space-y-6 py-10 my-14"
         id="experience"
@@ -223,13 +223,19 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-        {/* <div className="mx-auto text-center md:max-w-[58rem]">
-                    <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-                        See all the relevant experiences.
-                    </p>
-                </div> */}
-      </AnimatedSection>
-      <AnimatedSection
+                // <div className="mx-auto text-center md:max-w-[58rem]">
+                //     <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+                //         See all the relevant experiences.
+                //     </p>
+                // </div> 
+      </AnimatedSection> */}
+
+
+
+
+
+
+      {/* <AnimatedSection
         direction="down"
         className="container space-y-6 bg-muted py-10 my-14"
         id="contributions"
@@ -259,7 +265,7 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection>
+      </AnimatedSection> */}
     </ClientPageWrapper>
   );
 }
