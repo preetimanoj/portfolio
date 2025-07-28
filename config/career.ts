@@ -113,26 +113,26 @@ export const careerExperiences: CareerExperienceInterface[] = [
     companyUrl: "https://www.mitsogo.com/",
     logo: "/career/hexnode-logo.png",
   },
-  {
-    id: "fhg",
-    position: "Concierge",
-    company: "Forest Hill Group",
-    location: "Toronto, Ontario, Canada",
-    startDate: new Date("2023-01-01"),
-    endDate: new Date("2025-04-01"),
-    description: [
+  // {
+  //   id: "fhg",
+  //   position: "Concierge",
+  //   company: "Forest Hill Group",
+  //   location: "Toronto, Ontario, Canada",
+  //   startDate: new Date("2023-01-01"),
+  //   endDate: new Date("2025-04-01"),
+  //   description: [
       
-      "Delivered personalized customer service in a high-volume residential setting, exhibiting communication, commitment, leadership, and support.",
-      "Maintained written records and coordinated bookings and deliveries using scheduling tools and interview-style intake, ensuring responsible operations.",
-      "Introduced a digital package tracking system, reducing logging errors by 20% and aligning with the company’s performance culture, vision, and integrity.",
-    ],
-    achievements: [
-      "Represented the company’s values through integrity, support, and service in a high-volume residential environment."
-    ],
-    skills: [
-      "Javascript",
-    ],
-    companyUrl: "https://thefhgroup.com/",
-    logo: "/career/logo-fhg.svg",
-  },
+  //     "Delivered personalized customer service in a high-volume residential setting, exhibiting communication, commitment, leadership, and support.",
+  //     "Maintained written records and coordinated bookings and deliveries using scheduling tools and interview-style intake, ensuring responsible operations.",
+  //     "Introduced a digital package tracking system, reducing logging errors by 20% and aligning with the company’s performance culture, vision, and integrity.",
+  //   ],
+  //   achievements: [
+  //     "Represented the company’s values through integrity, support, and service in a high-volume residential environment."
+  //   ],
+  //   skills: [
+  //     "Javascript",
+  //   ],
+  //   companyUrl: "https://thefhgroup.com/",
+  //   logo: "/career/logo-fhg.svg",
+  // },
 ];
